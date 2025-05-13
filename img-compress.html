@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online image compressor. Reduce JPG, PNG, WebP file size without losing quality. Fast, secure, and privacy-friendly.">
+    <meta name="keywords" content="image compressor, compress JPG, reduce PNG size, WebP optimizer, free image optimizer">
+    <meta name="author" content="ImageCompressPro">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Free Online Image Compressor | Reduce File Size Instantly">
+    <meta property="og:description" content="Compress JPG, PNG, WebP images online for free. No registration required.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/image-compressor">
+    <meta property="og:image" content="https://yourwebsite.com/preview.jpg">
+    <link rel="canonical" href="https://yourwebsite.com/image-compressor">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Title -->
+    <title>Free Image Compressor | Reduce JPG, PNG, WebP Size Online</title>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Image Compressor",
+      "url": "https://yourwebsite.com/image-compressor",
+      "description": "Free online tool to compress images without quality loss.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any"
+    }
+    </script>
+
+    <!-- Google AdSense (Replace PUBLISHER_ID) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-PUBLISHER_ID" crossorigin="anonymous"></script>
+
+    <!-- CSS Styles -->
+    <style>
+        :root {
+            --primary: #4a6bff;
+            --secondary: #6c757d;
+            --success: #28a745;
+            --danger: #dc3545;
+            --light: #f8f9fa;
+            --dark: #343a40;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .upload-area {
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 20px 0;
+            background: white;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary);
+            background: rgba(74, 107, 255, 0.05);
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .controls {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .control-group {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        input[type="range"] {
+            width: 100%;
+        }
+
+        .slider-value {
+            display: inline-block;
+            width: 40px;
+            text-align: center;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #3a5ae8;
+        }
+
+        .btn-secondary {
+            background: var(--secondary);
+        }
+
+        .results {
+            display: none;
+            margin-top: 30px;
+        }
+
+        .result-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .ad-container {
+            background: #f1f3f5;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .ad-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="/" class="logo">ImageCompressor</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Ad Slot 1 -->
+        <div class="ad-container">
+            <div class="ad-label">Advertisement</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-PUBLISHER_ID"
+                 data-ad-slot="AD_SLOT_ID_1"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- Hero Section -->
+        <section>
+            <h1>Free Online Image Compressor</h1>
+            <p>Reduce file size of JPG, PNG, WebP images without losing quality.</p>
+        </section>
+
+        <!-- Upload Area -->
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📁</div>
+            <h3>Drag & Drop Images Here</h3>
+            <p>or click to select files</p>
+            <input type="file" id="fileInput" accept="image/*" multiple style="display: none;">
+        </div>
+
+        <!-- Compression Controls -->
+        <div class="controls">
+            <div class="control-group">
+                <label for="quality">Quality: <span id="qualityValue">80</span>%</label>
+                <input type="range" id="qualitySlider" min="1" max="100" value="80">
+            </div>
+            <div class="control-group">
+                <label for="format">Output Format</label>
+                <select id="formatSelect">
+                    <option value="original">Original</option>
+                    <option value="jpeg">JPEG</option>
+                    <option value="png">PNG</option>
+                    <option value="webp">WebP</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="resize">Resize: <span id="resizeValue">100</span>%</label>
+                <input type="range" id="resizeSlider" min="10" max="100" value="100">
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div style="display: flex; gap: 10px;">
+            <button id="compressBtn">Compress Images</button>
+            <button id="resetBtn" class="btn-secondary">Reset</button>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results" id="results">
+            <h2>Compressed Images</h2>
+            <div id="resultContainer"></div>
+        </div>
+
+        <!-- Ad Slot 2 -->
+        <div class="ad-container">
+            <div class="ad-label">Advertisement</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-PUBLISHER_ID"
+                 data-ad-slot="AD_SLOT_ID_2"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> ImageCompressor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Current Year in Footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // DOM Elements
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const qualitySlider = document.getElementById('qualitySlider');
+        const qualityValue = document.getElementById('qualityValue');
+        const formatSelect = document.getElementById('formatSelect');
+        const resizeSlider = document.getElementById('resizeSlider');
+        const resizeValue = document.getElementById('resizeValue');
+        const compressBtn = document.getElementById('compressBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const results = document.getElementById('results');
+        const resultContainer = document.getElementById('resultContainer');
+
+        let files = [];
+
+        // Event Listeners
+        uploadArea.addEventListener('click', () => fileInput.click());
+        uploadArea
